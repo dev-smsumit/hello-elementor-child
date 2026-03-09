@@ -2,3 +2,9 @@
  Theme Name: hello-elementor-child
  Template: hello-elementor
 */
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
