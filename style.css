@@ -7,4 +7,9 @@ body{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    background-color: aqua !important;
+}
+.entry-title a {
+    color: red !important;
+    background-color: chartreuse !important;
 }
