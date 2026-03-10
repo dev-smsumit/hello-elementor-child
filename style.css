@@ -14,7 +14,7 @@ body{
     background-color: chartreuse !important;
 }
 
-.deploy-section {
+.deploy-section p{
     background-color: #1F4E79;
     color: #ffffff;
     text-align: center;
