@@ -15,7 +15,7 @@ add_action('wp_enqueue_scripts', function() {
 add_filter('the_content', function($content) {
     $section = '
     <div class="deploy-section">
-        <p>Deploy Done!</p>
+        
     </div>';
     
     return $content . $section; 
