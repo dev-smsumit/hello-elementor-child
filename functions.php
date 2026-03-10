@@ -12,11 +12,10 @@ add_action('wp_enqueue_scripts', function() {
     );
 });
 
-add_filter('the_content', function($content) {
-    $section = '
+add_action('wp_footer', function() {
+    ?>
     <div class="deploy-section">
-        
-    </div>';
-    
-    return $content . $section; 
+        <p>Deploy Done</p>
+    </div>
+    <?php
 });
