@@ -13,3 +13,12 @@ add_action('wp_enqueue_scripts', function() {
         ['parent-style']
     );
 });
+
+// Custom section - Deploy Done
+add_action('wp_footer', function() {
+    ?>
+    <div class="deploy-section">
+        <p>Deploy Done</p>
+    </div>
+    <?php
+});

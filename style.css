@@ -13,3 +13,13 @@ body{
     color: red !important;
     background-color: chartreuse !important;
 }
+
+.deploy-section {
+    background-color: #1F4E79;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+}
